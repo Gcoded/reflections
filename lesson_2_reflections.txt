@@ -11,3 +11,8 @@ The staging area is the middle ground between the working directory and the repo
 How can you use the staging area to make sure you have one commit per logical change?
 
 Once you have file/s in the staging area you can run git diff --staged to see what was changed since the last commit. If only one logical change then you can commit it.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches help when you want to test out certain features and are not sure if you want them to be a part of the main project.  You can continue updating the main project and if the tested feature is successful it can be added to the main branch later by merging.
