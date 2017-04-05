@@ -16,3 +16,10 @@ Once you have file/s in the staging area you can run git diff --staged to see wh
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branches help when you want to test out certain features and are not sure if you want them to be a part of the main project.  You can continue updating the main project and if the tested feature is successful it can be added to the main branch later by merging.
+
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams show you the connections between commits and help you understand reachability (which commits are reflected together in git log).  Also you can see when branches were created in reference to other branches and the master.
+
+
