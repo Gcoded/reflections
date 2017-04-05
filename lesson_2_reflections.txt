@@ -23,3 +23,8 @@ How do the diagrams help you visualize the branch structure?
 Diagrams show you the connections between commits and help you understand reachability (which commits are reflected together in git log).  Also you can see when branches were created in reference to other branches and the master.
 
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging 2 branches together will combine all changes for all files. Merge will be onto the branch that is checked out and will show all commits from both branches sorted by timestamp.  The diagram shows the two branches coming together to form a new commit that has 2 parent commits (one from the end of each branch).  This is why all commits are now listed on the merged branch.
+
+
