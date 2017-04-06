@@ -28,3 +28,8 @@ What is the result of merging two branches together? Why do we represent it in t
 Merging 2 branches together will combine all changes for all files. Merge will be onto the branch that is checked out and will show all commits from both branches sorted by timestamp.  The diagram shows the two branches coming together to form a new commit that has 2 parent commits (one from the end of each branch).  This is why all commits are now listed on the merged branch.
 
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is faster since you dont have to look through the contents of the file(s).  Merging manually gives you more control over the content that is included and excluded.
+
+
