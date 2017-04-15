@@ -5,4 +5,12 @@ A remote repository would be used when you want others to be able to work with y
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-You may create files on the remote repo that you arent sure you want to be part of the main project, or someone else may have access to the remote repo and make changes that you do not want to see locally.
+You may create files on the remote repo that you arent sure you want to be part of the main project,
+ or someone else may have access to the remote repo and make changes that you do not want to see locally.
+
+
+ Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A fork is used on the github website to copy a repository to your account on the website.  A clone makes a copy of a repository on your local machine.  A branch creates a separate section of the project for you to experiment or add personal things and test them without disrupting activity on the main project.
+
+
